@@ -1,0 +1,18 @@
+2019-11-22 17:13:48,387 DEBUG com.alevel.reportPackage.documentDescription.ReportFooter [main] ReportHeader constructor call
+2019-11-22 17:13:48,392 DEBUG com.alevel.reportPackage.documentDescription.ReportFooter [main] ReportFooter constructor call
+2019-11-22 17:13:48,393 INFO com.alevel.reportPackage.documentDescription.ReportTest [main] Calling createIncomeReport() method in ReportTest
+2019-11-22 17:13:48,396 DEBUG com.alevel.reportPackage.documentDescription.ReportBody [main] ReportBody constructor call
+2019-11-22 17:13:48,397 DEBUG com.alevel.reportPackage.documentDescription.ReportBody [main] ReportIncomeBody constructor call
+2019-11-22 17:13:48,426 DEBUG com.alevel.reportPackage.documentDescription.Report [main] ReportBuilder constructor call
+2019-11-22 17:13:48,427 DEBUG com.alevel.reportPackage.documentDescription.Report [main] ReportBuilder build() call
+2019-11-22 17:13:48,427 DEBUG com.alevel.reportPackage.documentDescription.Report [main] Report constructor call
+2019-11-22 17:13:48,427 DEBUG com.alevel.reportPackage.documentDescription.ReportTest [main] Report{[header = ReportHeader{ companyName = 'PrivatBank'}], [body = ReportBody{ text = 'You have income 800$ on your card.', date = Fri Nov 22 17:13:48 EET 2019}], [footer = ReportFooter{companySeal = 'Sincerely, your bank <3'}]}
+2019-11-22 17:13:48,429 DEBUG com.alevel.reportPackage.documentDescription.ReportFooter [main] ReportHeader constructor call
+2019-11-22 17:13:48,429 DEBUG com.alevel.reportPackage.documentDescription.ReportFooter [main] ReportFooter constructor call
+2019-11-22 17:13:48,429 INFO com.alevel.reportPackage.documentDescription.ReportTest [main] Calling createTransferReport() method in ReportTest
+2019-11-22 17:13:48,430 DEBUG com.alevel.reportPackage.documentDescription.ReportBody [main] ReportBody constructor call
+2019-11-22 17:13:48,430 DEBUG com.alevel.reportPackage.documentSpecification.ReportTransferBody [main] ReportTransferBody constructor call
+2019-11-22 17:13:48,430 DEBUG com.alevel.reportPackage.documentDescription.Report [main] ReportBuilder constructor call
+2019-11-22 17:13:48,430 DEBUG com.alevel.reportPackage.documentDescription.Report [main] ReportBuilder build() call
+2019-11-22 17:13:48,430 DEBUG com.alevel.reportPackage.documentDescription.Report [main] Report constructor call
+2019-11-22 17:13:48,430 DEBUG com.alevel.reportPackage.documentDescription.ReportTest [main] Report{[header = ReportHeader{ companyName = 'PrivatBank'}], [body = ReportBody{ text = 'You transfer 400$ from your card.', date = Fri Nov 22 17:13:48 EET 2019}], [footer = ReportFooter{companySeal = 'Sincerely, your bank <3'}]}
